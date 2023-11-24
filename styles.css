@@ -1009,6 +1009,12 @@ the website, in dark theme
   .section__title,
   .section__title-center {
     font-size: var(--h1-font-size);
+    transition : all ease 0.3s;
+  }
+  .section__title,
+  .section__title-center:hover{
+    transform :translateX(1.25rem);
+    
   }
 
   .home {
