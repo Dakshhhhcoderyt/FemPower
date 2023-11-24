@@ -173,7 +173,7 @@ the website, in dark theme
 
 
 .section__title-center:hover {
-  transform : translateX(1.25rem);
+  transform : translateY(-1.25rem);
 }
 
 .container {
@@ -787,10 +787,12 @@ the website, in dark theme
 .footer__logo-icon {
   font-size: 1.15rem;
   color: var(--first-color);
+  transition:all ease 0.3s;
 }
 
 .footer__logo:hover {
   color: var(--first-color);
+  transform : translateX(1.25rem);
 }
 
 .footer__title {
