@@ -375,16 +375,22 @@ the website, in dark theme
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #202020;
   color: #fff;
   padding: 1rem 1.75rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
-  transition: 0.3s;
+  transition: all ease 0.2s;
+}
+
+.button:active{
+  scale: 0.9;
+
 }
 
 .button:hover {
   background-color: var(--first-color-alt);
+  transition: 0.3s;
 }
 
 .button__icon {
