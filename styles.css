@@ -472,9 +472,6 @@ the website, in dark theme
   transition:all ease 0.3s;
 }
 
-.about__details-icon:hover {
- transform: translateX(1rem);
-}
 .about__details-description:hover {
   transform: translateX(1.25rem);
  }
