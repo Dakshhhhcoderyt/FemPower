@@ -226,6 +226,7 @@ the website, in dark theme
 
 .nav__logo:hover {
   color: var(--first-color);
+  transform :translateX(1.25rem);
 }
 
 .nav__toggle {
