@@ -164,10 +164,16 @@ the website, in dark theme
   font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   line-height: 140%;
+  transition:all ease 0.3s;
 }
 
 .section__title-center {
   text-align: center;
+}
+
+.section__title,
+.section__title-center:hover {
+  transform : translateX(1.25rem);
 }
 
 .container {
